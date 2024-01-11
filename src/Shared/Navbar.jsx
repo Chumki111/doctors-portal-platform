@@ -62,7 +62,7 @@ const Navbar = () => {
     return (
         <>
       
-        <nav className="flex items-center justify-between py-4 px-6 shadow-md">
+        <nav className="flex items-center justify-between py-4 px-6">
           <div className="flex items-center flex-shrink-0 gap-3">
             <label
              onClick={toggleDrawer}
