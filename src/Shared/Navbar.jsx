@@ -15,23 +15,49 @@ const Navbar = () => {
     const link = (
         <>
           <li>
-            <Link to="/" className="text-black hover:text-[#a7a7a7]">
+            <Link to="/" className="text-black hover:text-[#19D3AE] active:text-[#19D3AE] nav">
               Home
             </Link>
           </li>
-         
-        </>
-      );
-    const linktwo = (
-        <>
           <li>
-            <Link to="/" className="text-black hover:text-[#a7a7a7]">
-              Home
+            <Link to="/about" className="text-black hover:text-[#19D3AE] nav">
+              About
             </Link>
           </li>
+          <li>
+            <Link to="/appointment" className="text-black hover:text-[#19D3AE]">
+              Appointment
+            </Link>
+          </li>
+          <li>
+            <Link to="/reviews" className="text-black hover:text-[#19D3AE]">
+              Reviews
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="text-black hover:text-[#19D3AE]">
+              Contact Us
+            </Link>
+          </li>
+          <li>
+            <Link to="/login" className="text-black hover:text-[#19D3AE]">
+              Login
+            </Link>
+          </li>
+          
          
         </>
       );
+    // const linktwo = (
+    //     <>
+    //       <li>
+    //         <Link to="/" className="text-black hover:text-[#00ADB5]">
+    //           Home
+    //         </Link>
+    //       </li>
+         
+    //     </>
+    //   );
   
     return (
         <>
@@ -47,7 +73,7 @@ const Navbar = () => {
             
             <h2 className="text-2xl font-semibold bg-clip-text cursor-pointer text-transparent bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC]">Doctor_Portal</h2>
           </div>
-          <div className="hidden md:flex flex-grow justify-center">
+          <div className="hidden md:flex flex-grow justify-end">
             <ul className="flex space-x-5 font-medium">{link}</ul>
           </div>
         </nav>
@@ -66,7 +92,7 @@ const Navbar = () => {
               <IoMdClose className=" text-2xl"></IoMdClose>
             </label>
                 </div>
-                <ul className="flex justify-center items-end px-10 flex-col font-medium">{linktwo}</ul>
+                <ul className="flex justify-center items-end px-10 flex-col font-medium">{link}</ul>
             </Drawer>
 
     
