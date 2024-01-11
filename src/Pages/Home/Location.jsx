@@ -5,10 +5,10 @@ import { FaPhoneVolume } from "react-icons/fa6";
 
 const Location = () => {
     return (
-        <div className="flex flex-col lg:flex-row gap-4 justify-between">
+        <div className="flex flex-grow flex-col md:flex-row gap-4 justify-between">
 
             {/* 1 st card */}
-            <div className="lg:w-[400px] bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] text-white rounded-md">
+            <div className="lg:w-[400px]   bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] text-white rounded-md">
            <div className="flex gap-5 px-4 items-center py-5">
            <FaRegClock className="text-5xl animate-spin"/>
                <div>
@@ -31,7 +31,7 @@ const Location = () => {
            </div>
 
             {/* third Card */}
-            <div className=" lg:w-[400px] bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] text-white">
+            <div className=" lg:w-[400px] bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] text-white cursor-context-menu rounded-md">
            <div className="flex gap-5 px-4 items-center py-5">
            <FaPhoneVolume  className="text-5xl animate-pulse"/>
                <div>
