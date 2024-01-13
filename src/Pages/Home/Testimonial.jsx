@@ -35,7 +35,7 @@ const Testimonial = () => {
         modules={[FreeMode, Pagination]}
         className="mySwiper my-10"
       >
-        <SwiperSlide className='my-3'>
+        <SwiperSlide className=''>
           <SliderCard/>
         </SwiperSlide>
         <SwiperSlide>
