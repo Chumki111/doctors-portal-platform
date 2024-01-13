@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const PrimaryButton = ({children}) => {
     return (
@@ -9,5 +9,9 @@ const PrimaryButton = ({children}) => {
         </>
     );
 };
+
+PrimaryButton.propTypes={
+    children:PropTypes.node
+}
 
 export default PrimaryButton;
