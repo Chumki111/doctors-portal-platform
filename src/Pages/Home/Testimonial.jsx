@@ -34,8 +34,8 @@ const Testimonial = () => {
         modules={[FreeMode, Pagination]}
         className="mySwiper my-10"
       >
-        <SwiperSlide>
-        <div className='shadow-2xl bg-white rounded-xl'>
+        <SwiperSlide className='my-3'>
+        <div className=' shadow-2xl hover:shadow-[#19D3AE] bg-white rounded-xl ease-out duration-300'>
         <GiClover className='text-[#19D3AE] animate-ping text-2xl'/>
                    <div className='py-6 text-center px-7'>
                   <p className='text-left'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
@@ -51,7 +51,7 @@ const Testimonial = () => {
                    </div>
                 </div></SwiperSlide>
         <SwiperSlide>
-          <div className='shadow-2xl bg-white rounded-xl'>
+          <div className='shadow-2xl hover:shadow-[#19D3AE] bg-white rounded-xl '>
           <GiClover className='text-[#19D3AE] animate-ping text-2xl'/>
                    <div className='py-6 text-center px-7'>
                   <p className='text-left'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
@@ -68,7 +68,7 @@ const Testimonial = () => {
                 </div>
                 </SwiperSlide>
         <SwiperSlide>
-        <div className='shadow-2xl bg-white rounded-xl'>
+        <div className='shadow-2xl hover:shadow-[#19D3AE] bg-white rounded-xl'>
         <GiClover className='text-[#19D3AE] animate-ping text-2xl'/>
                    <div className='py-6 text-center px-7'>
                   <p className='text-left'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
@@ -84,7 +84,7 @@ const Testimonial = () => {
                    </div>
                 </div>
         </SwiperSlide>
-        <SwiperSlide><div className='shadow-2xl bg-white rounded-xl'>
+        <SwiperSlide><div className='shadow-2xl hover:shadow-[#19D3AE] bg-white rounded-xl'>
         <GiClover className='text-[#19D3AE] animate-ping text-2xl'/>
                    <div className='py-6 text-center px-7'>
                   <p className='text-left'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
@@ -99,7 +99,7 @@ const Testimonial = () => {
                    </div>
                    </div>
                 </div></SwiperSlide>
-        <SwiperSlide><div className='shadow-2xl bg-white rounded-xl'>
+        <SwiperSlide><div className='shadow-2xl hover:shadow-[#19D3AE] bg-white rounded-xl'>
         <GiClover className='text-[#19D3AE] animate-ping text-2xl'/>
                    <div className='py-6 text-center px-7'>
                   <p className='text-left'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
@@ -114,7 +114,7 @@ const Testimonial = () => {
                    </div>
                    </div>
                 </div></SwiperSlide>
-        <SwiperSlide><div className='shadow-2xl bg-white rounded-xl'>
+        <SwiperSlide><div className='shadow-2xl hover:shadow-[#19D3AE] bg-white rounded-xl'>
         <GiClover className='text-[#19D3AE] animate-ping text-2xl'/>
                    <div className='py-6 text-center px-7'>
                   <p className='text-left'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>

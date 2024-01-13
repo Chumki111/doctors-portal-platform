@@ -1,4 +1,5 @@
 // import Appointment from "./Appointment";
+import Contact from "../Contact/Contact";
 import Banner from "./Banner";
 import Location from "./Location";
 import Services from "./Services";
@@ -15,6 +16,7 @@ const Home = () => {
             <Treatment/>
             {/* <Appointment/> */}
             <Testimonial/>
+            <Contact/>
         </div>
     );
 };
