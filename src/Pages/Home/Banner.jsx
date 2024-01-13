@@ -1,3 +1,4 @@
+import PrimaryButton from '../../Components/PrimaryButton';
 import chair from '../../assets/chair 1.png'
 
 const Banner = () => {
@@ -10,9 +11,8 @@ const Banner = () => {
               Track and improve the growth of your business. Send the right customers your way with this tool
             </p>
             <div className="flex space-x-4">
-              <button className="inline-flex flex-nowrap items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 cursor-pointer bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] h-10 px-4 py-2  text-white">
-                Get Started
-              </button>
+             
+              <PrimaryButton>Get Started</PrimaryButton>
              
             </div>
             
