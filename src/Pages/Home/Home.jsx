@@ -1,4 +1,4 @@
-// import Appointment from "./Appointment";
+import Appointment from "./Appointment";
 import Contact from "../Contact/Contact";
 import Banner from "./Banner";
 import Location from "./Location";
@@ -14,7 +14,7 @@ const Home = () => {
             <Location/>
             <Services/>
             <Treatment/>
-            {/* <Appointment/> */}
+            <Appointment/>
             <Testimonial/>
             <Contact/>
         </div>
