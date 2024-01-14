@@ -4,7 +4,7 @@ import 'react-modern-drawer/dist/index.css'
 import { CgMenuGridO } from "react-icons/cg";
 import { IoMdClose } from "react-icons/io";
 import Drawer from 'react-modern-drawer'
-
+// import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -34,6 +34,27 @@ const Navbar = () => {
               Reviews
             </Link>
           </li>
+          {/* <li>
+           <ScrollLink
+    to="Reviews"
+    smooth={true}
+    duration={1000}
+    className="text-black hover:text-[#19D3AE] cursor-pointer"
+    onClick={(e) => {
+      e.preventDefault(); // Prevents default behavior of anchor tag
+      setTimeout(() => {
+        const contactSection = document.getElementById('Reviews');
+        if (contactSection) {
+          contactSection.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      }, 500); // Change the delay time (in milliseconds) as needed
+    }}
+  >
+   Reviews
+  </ScrollLink>
+  </li> */}
           <li>
             <Link to="/contact" className="text-black hover:text-[#19D3AE]">
               Contact Us
