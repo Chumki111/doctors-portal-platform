@@ -7,7 +7,8 @@ const Appointment = () => {
         {
             startDate: new Date(),
             endDate: null,
-            key: 'selection'
+            key: 'selection',
+            color: '#19D3AE'
         }
     ]);
     const [date, setDate] = useState([
@@ -16,6 +17,8 @@ const Appointment = () => {
            
         }
     ]);
+    
+    
     return (
         <div>
             <div className="flex min-h-[700px] w-full items-center justify-center px-8 " style={{ backgroundImage: 'url("https://i.ibb.co/MPhXGcj/landing-bg.png")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
@@ -37,8 +40,9 @@ const Appointment = () => {
                 </div>
             </div>
             <div>
-                <div className='text-center'>
+                <div className='text-center my-16'>
                     <h2 className='text-color font-medium text-xl'>Available Services on {date[0].startDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</h2>
+                   
                     <p className='text-lg'>Please select a service.</p>
                 </div>
             </div>
