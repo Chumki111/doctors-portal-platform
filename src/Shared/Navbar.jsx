@@ -15,22 +15,22 @@ const Navbar = () => {
     const link = (
         <>
           <li>
-            <Link to="/" className="text-black hover:text-[#19D3AE] active:text-[#19D3AE] nav">
+            <Link to="/" className="text-black hover:text-[#19D3AE] active:text-[#19D3AE] nav hover:underline">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="text-black hover:text-[#19D3AE] nav">
+            <Link to="/about" className="text-black hover:text-[#19D3AE] nav hover:underline">
               About
             </Link>
           </li>
           <li>
-            <Link to="/appointment" className="text-black hover:text-[#19D3AE]">
+            <Link to="/appointment" className="text-black hover:text-[#19D3AE] hover:underline">
               Appointment
             </Link>
           </li>
           <li>
-            <Link to="/reviews" className="text-black hover:text-[#19D3AE]">
+            <Link to="/reviews" className="text-black hover:text-[#19D3AE] hover:underline">
               Reviews
             </Link>
           </li>
@@ -56,12 +56,12 @@ const Navbar = () => {
   </ScrollLink>
   </li> */}
           <li>
-            <Link to="/contact" className="text-black hover:text-[#19D3AE]">
+            <Link to="/contact" className="text-black hover:text-[#19D3AE] hover:underline">
               Contact Us
             </Link>
           </li>
           <li>
-            <Link to="/login" className="text-black hover:text-[#19D3AE]">
+            <Link to="/login" className="text-black hover:text-[#19D3AE] hover:underline">
               Login
             </Link>
           </li>
@@ -69,16 +69,7 @@ const Navbar = () => {
          
         </>
       );
-    // const linktwo = (
-    //     <>
-    //       <li>
-    //         <Link to="/" className="text-black hover:text-[#00ADB5]">
-    //           Home
-    //         </Link>
-    //       </li>
-         
-    //     </>
-    //   );
+   
   
     return (
         <>

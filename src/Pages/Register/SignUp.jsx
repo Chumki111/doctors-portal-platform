@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import { imageUpload } from "../../api/utils";
 
-
-
 const SignUp = () => {
     const handleRegister = async (e) => {
         e.preventDefault();
@@ -11,7 +9,7 @@ const SignUp = () => {
         const email = form.email.value;
         const password = form.password.value;
         const image = form.image.files[0];
-        console.log(name, email, password,image);
+        console.log(name, email, password);
 
         try {
             // image upload
