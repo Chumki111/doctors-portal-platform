@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { imageUpload } from "../../api/utils";
 
 
 
@@ -12,7 +13,15 @@ const SignUp = () => {
         const image = form.image.files[0];
         console.log(name, email, password,image);
 
-        
+        try {
+            // image upload
+            const imageData = await imageUpload(image);
+            console.log(imageData);
+            console.log(imageData?.data);
+            console.log(imageData?.data?.display_url);
+        } catch (err) {
+            console.log(err);
+        }
     }
     return (
         <div className="flex justify-center items-center mt-5">
