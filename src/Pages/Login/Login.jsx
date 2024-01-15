@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
@@ -24,9 +25,9 @@ const Login = () => {
                 <button className="block w-full p-3 text-center bg-black text-white rounded-sm ">Sign in</button>
                 <p className="text-black text-center sm:px-6">
                 New To Doctors_Portal ?
-                <a rel="noopener noreferrer" href="#" className="hover:underline text-color pl-2">
+                <Link to="/register" className="hover:underline text-color pl-2">
                     create New Account
-                </a>
+                </Link>
             </p>
             </form>
             <div className="flex items-center pt-4 space-x-1">
