@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 
@@ -10,6 +11,11 @@ const Login = () => {
   console.log(email,password);
     }
     return (
+        <>
+         <Helmet>
+            <title>Doctor_Portal | Login</title>
+        </Helmet>
+        
         <div className="flex justify-center items-center">
             <div className="w-full max-w-md p-8 space-y-3 rounded-xl border shadow-md font-sans">
             <h1 className="text-2xl font-bold text-center">Login</h1>
@@ -49,6 +55,7 @@ const Login = () => {
            
         </div>
         </div>
+        </>
     );
 };
 
