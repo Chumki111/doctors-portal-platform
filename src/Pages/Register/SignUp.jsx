@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { imageUpload } from "../../api/utils";
+import { Helmet } from "react-helmet-async";
 
 const SignUp = () => {
     const handleRegister = async (e) => {
@@ -22,6 +23,10 @@ const SignUp = () => {
         }
     }
     return (
+        <>
+         <Helmet>
+            <title>Doctor_Portal | Sign Up</title>
+        </Helmet>
         <div className="flex justify-center items-center mt-5">
             <div className="w-full max-w-md p-8 space-y-3 rounded-xl border shadow-md font-sans">
                 <h1 className="text-2xl font-bold text-center">Sign Up</h1>
@@ -77,6 +82,7 @@ const SignUp = () => {
 
             </div>
         </div>
+        </>
     );
 };
 
