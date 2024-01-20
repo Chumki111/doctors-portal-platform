@@ -1,9 +1,13 @@
+import { Helmet } from "react-helmet-async";
 import PrimaryButton from "../../Components/PrimaryButton";
 
 
 const Contact = () => {
     return (
-      
+      <>
+      <Helmet>
+            <title>Doctor_Portal | Contact Us</title>
+        </Helmet>
             <section className="flex h-[500px] justify-center" style={{ backgroundImage: 'url("https://i.ibb.co/VpsLW8G/bg-blue.png")',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
                 
                 <div>
@@ -48,7 +52,7 @@ const Contact = () => {
                 </div>
                 
             </section>
-
+            </>
        
     );
 };
