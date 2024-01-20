@@ -21,9 +21,7 @@ Card.propTypes={
 Card.propTypes={
     description:PropTypes.string
 }
-Card.propTypes={
-    title:PropTypes.string
-}
+
 Card.propTypes={
     icon:PropTypes.func
 }

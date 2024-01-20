@@ -18,6 +18,16 @@ const Location = () => {
                </div>
            </div>
            </div>
+           <div className="   bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] text-white rounded-md">
+           <div className="flex gap-5 px-4 items-center py-5">
+           <FaRegClock className="text-5xl animate-spin"/>
+               <div>
+               <h2 className="font-semibold text-2xl">Opening Hours</h2>
+                <p>Sat - Thus : 10 AM - 4 PM</p>
+                <p>Fri : 4 PM - 10 PM</p>
+               </div>
+           </div>
+           </div>
 
             {/* Second Card */}
             <div className="bg-[#3A4256] rounded-md text-white">
