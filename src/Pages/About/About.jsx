@@ -6,8 +6,13 @@ import { GiWeightLiftingUp } from "react-icons/gi";
 import { BsEmojiSmile } from "react-icons/bs";
 import { MdDirectionsBike } from "react-icons/md";
 import Card from "../../Components/Card";
+import { Helmet } from "react-helmet-async";
 const About = () => {
     return (
+        <>
+        <Helmet>
+            <title>Doctor_Portal | About</title>
+        </Helmet>
         <div className="my-16">
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-14'>
@@ -37,6 +42,7 @@ const About = () => {
 
             </div>
         </div>
+        </>
     );
 };
 
