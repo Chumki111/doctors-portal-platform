@@ -17,7 +17,7 @@ const About = () => {
         <div className="flex items-center my-5 cursor-pointer">
         <Link to={'/'} className="text-xl font-semibold ">Home </Link>
          <IoMdArrowDropright className="w-[22px]"/>
-         <h1 className="text-xl font-semibold text-[#448c74]">About Us</h1>
+         <h1 className="text-xl font-semibold text-[#00ADB5]">About Us</h1>
         </div>
         <div className="md:flex gap-5 items-center cursor-pointer hidden ">
         <IoFitnessOutline className="text-4xl"/>
